@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+     <style>
+        body{
+            background-image: url(WhatsApp\ Image\ 2024-09-29\ at\ 12.43.39\ PM.jpeg); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        } 
+    
+       Form, label{
+            text-align: center;
+        }
+     </style>
+<body><fieldset>
+    <h1 style="text-align:center;">PAYMENT FORM</h1><hr>
+    <p style="text-align:center;">REQUIRED FIELDS ARE FOLLOWED BY*</p>
+    <h2  style="text-align:center;">CONTACT INFORMATION</h2><hr>
+    <form>
+        <label for="Name">Name:*</label>
+        <input type="text" id="Name" placeholder="Enter the Name" required>
+        <br><br>
+        <div style="border: 1px solid black;">
+        <label for="GENDER">GENDER*</label>
+       <br>
+         MALE<input type="radio" name="MY GENDER" id="GENDER">FEMALE<input type="radio" name="MY GENDER" id="GENDER">
+       </div>
+       <br>
+       <label>ADDRESS:</label>
+       <textarea><input type="Address" id="Address" placeholder=""></textarea>
+       <br><br>
+       <label for="email"> E-mail:* </label>
+        <input type="email" id="E-mail" placeholder="">
+        <br><br>
+        <label for="pincode"> PINCODE:* </label>
+        <input type="PINCODE" id="PINCODE" placeholder="">
+        <br>
+        <h3 style="text-align: center;">PAYMENT INFORMATION</h3>
+        
+        <label for="Card Type">Card Type:*</label>
+ 
+<select name="CARD TYPE" id="CARD TYPE">
+  <option value="">--Select a Card Type--</option>
+  <option value="Rupee">Rupee</option>
+  <option value="Master Card">Master  Card</option>
+  <option value="Viza">Viza</option></select>
+  <br><br>
+  <label for="Card Number"> CARD NUMBER* </label>
+  <input type="Number" id="Card Number" placeholder="Card Number"><br><br>
+  <label for="Expiration Date">EXPIRATION DATE:*</label>
+         
+     <input type="date" id="start" name="trip-start" value="2024-23-09" min="01-01-2018" max="30-11-2025" /><br><br>
+     <label for="Cvv"> CVV* </label>
+  <input type="Number" id="CVV" placeholder="CVV"><br><br>
+  <input type="button" value="Pay Now">
+ 
+    </form>
+</body></fieldset>
+</html>
